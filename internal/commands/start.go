@@ -26,6 +26,6 @@ func start(ctx *ext.Context, u *ext.Update) error {
 		ctx.Reply(u, "You are not allowed to use this bot.", nil)
 		return dispatcher.EndGroups
 	}
-	ctx.Reply(u, "Hi, send me any file to get a direct streamble link to that file.", nil)
+	ctx.Reply(u, "Hi, ඔයා ෆයිල් එකක් දාන්න ඒක මම ලින්ක් එකක් කරලා දෙනවා \n join now - https://whatsapp.com/channel/0029VaHvPmxIXnlmIK2VaO3e.", nil)
 	return dispatcher.EndGroups
 }
