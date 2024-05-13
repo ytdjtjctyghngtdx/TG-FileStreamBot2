@@ -96,7 +96,7 @@ func sendLink(ctx *ext.Context, u *ext.Update) error {
 	if strings.Contains(file.MimeType, "video") || strings.Contains(file.MimeType, "audio") || strings.Contains(file.MimeType, "pdf") {
 		row.Buttons = append(row.Buttons, &tg.KeyboardButtonURL{
 			Text: "චැනල් එකට join වෙන්න",
-			URL:  https://whatsapp.com/channel/0029VaHvPmxIXnlmIK2VaO3e,
+			URL:  "https://whatsapp.com/channel/0029VaHvPmxIXnlmIK2VaO3e",
 		})
 	}
 	markup := &tg.ReplyInlineMarkup{
